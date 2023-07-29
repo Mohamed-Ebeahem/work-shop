@@ -1,0 +1,42 @@
+/* 
+body{
+    height: 2000px;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+}
+.item {
+    overflow: hidden;
+}
+.info{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: 0px;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.item:hover .info{
+    opacity: 1;
+    transform: rotate(360deg);
+ 
+} */
+
+
+img{
+    width: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body{
+
+
+}
